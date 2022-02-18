@@ -2,7 +2,7 @@ import { SpecificationsRepository } from "../../Cars/repositories/implementation
 import { CreateSpecificationController } from "./CreateSpecificationController";
 import { CreateSpecificationUseCase } from "./CreateSpecificationUseCase";
 
-const specificationRepository = new SpecificationsRepository();
+const specificationRepository = null;
 
 const createSpecificationUseCase = new CreateSpecificationUseCase(
     specificationRepository
