@@ -7,9 +7,9 @@ node_modules
 .ssh/
 
 # log contents
-logs/
+logs/*
 !logs/.gitkeep
 
 # static files
-static/
+static/*
 !static/.gitkeep
