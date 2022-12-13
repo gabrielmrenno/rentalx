@@ -1,0 +1,15 @@
+# debug configurations/files
+node_modules
+.vscode
+
+# environment variables
+.env
+.ssh/
+
+# log contents
+logs/
+!logs/.gitkeep
+
+# static files
+static/
+!static/.gitkeep
